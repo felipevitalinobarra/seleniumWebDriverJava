@@ -15,6 +15,14 @@ public class ValidarLoginTest {
         // Navegando para a página "saucedemo"
             navegador.get("https://www.saucedemo.com/");
 
+        // Cenário 1: Teste de login bem-sucedido
+
+        // Cenário 2: Teste de login com nome de usuário incorreto
+
+        // Cenário 3: Teste de login com senha incorreta
+
+        // Cenário 4: Teste de campos vazios
+
         // Validação
         assertEquals(1,1);
     }
