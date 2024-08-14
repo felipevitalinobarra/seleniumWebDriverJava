@@ -5,15 +5,15 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class InformacoesUsuarioTest {
+public class ValidarLoginTest {
     @Test
-    public void testAddInformacaoAdicionalDoUsuario(){
+    public void testValidarLogin(){
         // Abrindo o navegador
         System.setProperty("webdriver.chrome.driver","C:\\Users\\felip\\drivers\\chromedriver.exe");
         WebDriver navegador = new ChromeDriver();
 
-        // Navegando para a página do Taskit!
-        navegador.get("http://www.juliodelima.com.br/taskit");
+        // Navegando para a página "saucedemo"
+            navegador.get("https://www.saucedemo.com/");
 
         // Validação
         assertEquals(1,1);
