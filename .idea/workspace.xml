@@ -34,22 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "JUnit.InformacoesUsuarioTest.executor": "Run",
-    "JUnit.InformacoesUsuarioTest.testAddInformacaoAdicionalDoUsuario.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CURSOS/Udemy/Automacao de Testes com Selenium WebDriver em Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JUnit.InformacoesUsuarioTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InformacoesUsuarioTest.testAddInformacaoAdicionalDoUsuario.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CURSOS/Udemy/Automacao de Testes com Selenium WebDriver em Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.InformacoesUsuarioTest">
     <configuration name="InformacoesUsuarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webdriverJava" />
+      <module name="Saucedemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -64,7 +64,7 @@
       </method>
     </configuration>
     <configuration name="InformacoesUsuarioTest.testAddInformacaoAdicionalDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webdriverJava" />
+      <module name="Saucedemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -80,13 +80,13 @@
       </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="webdriverJava" />
+      <module name="Saucedemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="webdriverJava" />
+      <module name="Saucedemo" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
