@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3d0a8b2-2203-425c-bd36-0033fec74cd2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Screenshot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ValidarLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ValidarLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,18 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "felipevitalinobarra"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;felipevitalinobarra&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/felipevitalinobarra/seleniumWebDriverJava.git",
-    "accountId": "c1d528bf-1b4c-4ab0-b075-85667288a3ab"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/felipevitalinobarra/seleniumWebDriverJava.git&quot;,
+    &quot;accountId&quot;: &quot;c1d528bf-1b4c-4ab0-b075-85667288a3ab&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -60,31 +63,19 @@
     "JUnit.ValidarLoginTest.testValidarCampoUsernameVazio.executor": "Run",
     "JUnit.ValidarLoginTest.testValidarCamposPasswordVazio.executor": "Run",
     "JUnit.ValidarLoginTest.testValidarCamposVazios.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarLoginComSenhaIncorreta.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarLoginComSucesso.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarLoginComUsuarioIncorreto.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "ProjectSaucedemo",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/CURSOS/Udemy/Automacao de Testes com Selenium WebDriver em Java"
+    "last_opened_file_path": "D:/CURSOS/Udemy/Automacao de Testes com Selenium WebDriver em Java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ValidarLoginTest">
-    <configuration name="InformacoesUsuarioTest.testAddInformacaoAdicionalDoUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Saucedemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.InformacoesUsuarioTest" />
-      <option name="METHOD_NAME" value="testAddInformacaoAdicionalDoUsuario" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ValidarLoginTest.testValidarLoginComSenhaIncorreta">
     <configuration name="ValidarLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
       <extension name="coverage">
@@ -96,38 +87,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ValidarLoginTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidarLoginTest.testValidarCampoUsernameVazio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Saucedemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ValidarLoginTest" />
-      <option name="METHOD_NAME" value="testValidarCampoUsernameVazio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidarLoginTest.testValidarCamposPasswordVazio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Saucedemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ValidarLoginTest" />
-      <option name="METHOD_NAME" value="testValidarCamposPasswordVazio" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,26 +107,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="ValidarLoginTest.testValidarLoginComSenhaIncorreta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ValidarLoginTest" />
+      <option name="METHOD_NAME" value="testValidarLoginComSenhaIncorreta" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="ValidarLoginTest.testValidarLoginComSucesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ValidarLoginTest" />
+      <option name="METHOD_NAME" value="testValidarLoginComSucesso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidarLoginTest.testValidarLoginComUsuarioIncorreto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Saucedemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ValidarLoginTest" />
+      <option name="METHOD_NAME" value="testValidarLoginComUsuarioIncorreto" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ValidarLoginTest.testValidarLoginComSenhaIncorreta" />
         <item itemvalue="JUnit.ValidarLoginTest" />
-        <item itemvalue="JUnit.ValidarLoginTest.testValidarCampoUsernameVazio" />
-        <item itemvalue="JUnit.ValidarLoginTest.testValidarCamposPasswordVazio" />
+        <item itemvalue="JUnit.ValidarLoginTest.testValidarLoginComSucesso" />
+        <item itemvalue="JUnit.ValidarLoginTest.testValidarLoginComUsuarioIncorreto" />
         <item itemvalue="JUnit.ValidarLoginTest.testValidarCamposVazios" />
-        <item itemvalue="JUnit.InformacoesUsuarioTest.testAddInformacaoAdicionalDoUsuario" />
       </list>
     </recent_temporary>
   </component>
