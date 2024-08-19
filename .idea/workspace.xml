@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3d0a8b2-2203-425c-bd36-0033fec74cd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Screenshot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ValidarLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ValidarLoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c3d0a8b2-2203-425c-bd36-0033fec74cd2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +63,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ProjectSaucedemo",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/CURSOS/Udemy/Automacao de Testes com Selenium WebDriver em Java",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
