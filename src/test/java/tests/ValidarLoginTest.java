@@ -2,16 +2,24 @@ package tests;
 
 import static org.junit.Assert.*;
 
+import org.easetech.easytest.annotation.DataLoader;
+import org.easetech.easytest.annotation.Param;
+import org.easetech.easytest.runner.DataDrivenTestRunner;
 import org.junit.*;
 import org.junit.rules.TestName;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import suporte.Generator;
 import suporte.Screenshot;
+import suporte.Web;
 
 import java.util.concurrent.TimeUnit;
+
+@RunWith(DataDrivenTestRunner.class)
+@DataLoader(filePaths = "ValidarLoginTest.csv")
 
 public class ValidarLoginTest {
     private WebDriver navegador;
@@ -24,27 +32,19 @@ public class ValidarLoginTest {
 
     @Before
     public void setUp(){
-        // Abrindo o navegador
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\felip\\drivers\\chromedriver.exe");
-        navegador = new ChromeDriver();
-
-        // Navegando para a página "saucedemo"
-        navegador.get("https://www.saucedemo.com/");
-
+        navegador = Web.createChrome();
         txt_username = navegador.findElement(By.id("user-name"));
         txt_password = navegador.findElement(By.id("password"));
         btn_login = navegador.findElement(By.id("login-button"));
     }
 
-    /*
-     *
-     * Identificadores dos campos:
-     *
-     * [TXT] Username - id = user-name
-     * [TXT] Password - id = password
-     * [BTN] Login - id = login-button
-     *
-     */
+    @Test
+    public void testValidarAcessos(@Param(name="usuario")String usuario,@Param(name="senha")String senha){
+        // Validar os usuários: locked_out_user, problem_user, performance_glitch_user, error_user, visual_user
+        txt_username.sendKeys(usuario);
+        txt_password.sendKeys(senha);
+        btn_login.click();
+    }
 
     @Test
     public void testValidarLoginComSucesso() {
