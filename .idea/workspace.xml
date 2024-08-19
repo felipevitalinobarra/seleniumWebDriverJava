@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3d0a8b2-2203-425c-bd36-0033fec74cd2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/suporte/Web.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ValidarLoginPageObjectsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/ValidarLoginTest.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ValidarLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ValidarLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,29 +53,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;JUnit.InformacoesUsuarioTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InformacoesUsuarioTest.testAddInformacaoAdicionalDoUsuario.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.testValidarAcessos.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.testValidarCampoUsernameVazio.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.testValidarCamposPasswordVazio.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.testValidarCamposVazios.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.testValidarLoginComSenhaIncorreta.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.testValidarLoginComSucesso.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ValidarLoginTest.testValidarLoginComUsuarioIncorreto.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ProjectSaucedemo&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CURSOS/Udemy/Automacao de Testes com Selenium WebDriver em Java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JUnit.InformacoesUsuarioTest.executor": "Run",
+    "JUnit.InformacoesUsuarioTest.testAddInformacaoAdicionalDoUsuario.executor": "Run",
+    "JUnit.ValidarLoginTest.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarAcessos.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarCampoUsernameVazio.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarCamposPasswordVazio.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarCamposVazios.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarLoginComSenhaIncorreta.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarLoginComSucesso.executor": "Run",
+    "JUnit.ValidarLoginTest.testValidarLoginComUsuarioIncorreto.executor": "Run",
+    "JUnit.Web.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "ProjectSaucedemo",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CURSOS/Udemy/Automacao de Testes com Selenium WebDriver em Java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.ValidarLoginTest.testValidarLoginComSucesso">
+}]]></component>
+  <component name="RunManager" selected="JUnit.Web">
     <configuration name="ValidarLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
       <extension name="coverage">
@@ -144,29 +140,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidarLoginTest.testValidarLoginComUsuarioIncorreto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Web" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Saucedemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="suporte.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ValidarLoginTest" />
-      <option name="METHOD_NAME" value="testValidarLoginComUsuarioIncorreto" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="suporte" />
+      <option name="MAIN_CLASS_NAME" value="suporte.Web" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Web" />
         <item itemvalue="JUnit.ValidarLoginTest.testValidarLoginComSucesso" />
         <item itemvalue="JUnit.ValidarLoginTest" />
         <item itemvalue="JUnit.ValidarLoginTest.testValidarAcessos" />
         <item itemvalue="JUnit.ValidarLoginTest.testValidarLoginComSenhaIncorreta" />
-        <item itemvalue="JUnit.ValidarLoginTest.testValidarLoginComUsuarioIncorreto" />
       </list>
     </recent_temporary>
   </component>
