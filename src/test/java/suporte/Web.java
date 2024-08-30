@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Web {
     public static WebDriver createChrome(){
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\felip\\drivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","C:\\Users\\felip\\drivers\\chromedriver.exe");
         WebDriver navegador = new ChromeDriver();
         navegador.get("https://www.saucedemo.com/");
 
